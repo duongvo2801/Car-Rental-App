@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/bgr_dialog"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm xe mới"
+        android:textSize="20dp"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/etTenXe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên xe"/>
+
+    <EditText
+        android:id="@+id/etTien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Tiền"/>
+
+    <Spinner
+        android:id="@+id/spnLoaiXe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
