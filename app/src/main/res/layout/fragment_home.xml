@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context=".fragment.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/banner_home"
+            />
+
+        <TextView
+            android:id="@+id/tvTop10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivBanner"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="SẢN PHẨM NỔI BẬT"
+            android:textColor="@color/theme_tele"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:id="@+id/llTab"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_below="@id/tvTop10"
+            android:layout_height="120dp">
+            <LinearLayout
+                android:id="@+id/llTop2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:src="@drawable/yamaha_1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#FFC107"
+                    android:text="Top 2"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/llTop1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/exciter"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#ff00"
+                    android:text="Top 1"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/llTop3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:src="@drawable/sh_150cc"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#4CAF50"
+                    android:text="Top 3"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvDSXe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/llTab"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="DANH SÁCH XE"
+            android:textColor="@color/theme_tele"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tvDSXe"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/llDSXe1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="7dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/sh_150cc"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:layout_marginLeft="5dp"
+                    android:text="Honda SH 125i 2022  luôn được đánh giá cao bởi vẻ đẹp sang trọng, đẳng cấp vốn có của dòng xe tay ga hạng sang này. Từ lâu nhắc đến dòng xe tay ga hàng đầu thì chúng ta đều nghĩ đến SH. Với phiên bản mới ra mắt lần này..."/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/llDSXe2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="7dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/winner"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:layout_marginLeft="5dp"
+                    android:text="Honda Winner X 2022 vẫn được nhà sản xuất đến từ Nhật Bản trang bị khối động cơ cam kép DOHC có dung tích 150cc, cho công suất 11,5 mã lực khi máy đạt đến số vòng tua 9.000 vòng/phút và mô-men..."/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/llDSXe3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="7dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/exciter"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:layout_marginLeft="5dp"
+                    android:text="Bạn tìm kiếm điều gì ở một chiếc xe hiệu năng cao đường phố? Cảm giác tự tin ở tốc độ cao hay những giây phút thật sự vui vẻ sau tay lái? Nếu những tiêu chí trên là ưu tiên cho việc mua xe thì Yamaha Exciter 150 sẽ không làm bạn thất vọng...."/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

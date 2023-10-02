@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "227954776005",
+    "project_id": "realtime-app-d8c3a",
+    "storage_bucket": "realtime-app-d8c3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227954776005:android:d8d71ac733a67cc99a9dac",
+        "android_client_info": {
+          "package_name": "com.example.carrentelrealtimeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227954776005-80kamsruulks6n6h8lnutduornt8v1vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5ECZg7l6QytEpgxCiHUFl8X_ZO5FtHKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227954776005-80kamsruulks6n6h8lnutduornt8v1vh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

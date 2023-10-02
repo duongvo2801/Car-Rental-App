@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/icons8_home_page_96"
+        android:title="Trang Chủ" />
+
+    <item
+        android:id="@+id/thanhVien"
+        android:icon="@drawable/icons8_member_50"
+        android:title="Khách Hàng" />
+
+    <item
+        android:id="@+id/callCard"
+        android:icon="@drawable/icons8_debit_card_100"
+        android:title="Phiếu Mượn" />
+
+    <item
+        android:id="@+id/me"
+        android:icon="@drawable/icons8_user_48"
+        android:title="Tôi" />
+
+</menu>
